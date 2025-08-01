@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import { HiMenuAlt3, HiX } from 'react-icons/hi';
+// @ts-expect-error: No types for 'react-scroll'
 import { Link as ScrollLink } from 'react-scroll';
 
 export default function Header() {
