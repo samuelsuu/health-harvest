@@ -1,6 +1,9 @@
 'use client';
 
 import { useState } from 'react';
+import Header from '../components/Header';
+import { div } from 'framer-motion/client';
+import Footer from '../components/Footer';
 
 export default function ProductsSection() {
   const [products] = useState([
@@ -34,7 +37,9 @@ export default function ProductsSection() {
   ]);
 
   return (
-    <section id="products" className="py-20 bg-gray-50">
+    <section >
+      {/* <Header /> */}
+     <div id="products" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <h2 className="text-4xl font-extrabold text-green-800 mb-12 text-center">
           Our Products
@@ -69,6 +74,8 @@ export default function ProductsSection() {
           ))}
         </div>
       </div>
+      </div>
+      <Footer/>
     </section>
   );
 }
