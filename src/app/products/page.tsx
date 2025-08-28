@@ -39,6 +39,7 @@ export default function ProductsSection() {
   return (
     <section >
       {/* <Header /> */}
+      <Header />
      <div id="products" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <h2 className="text-4xl font-extrabold text-green-800 mb-12 text-center">

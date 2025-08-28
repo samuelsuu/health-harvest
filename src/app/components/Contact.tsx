@@ -29,7 +29,7 @@ export default function Contact() {
     <section id="contact" className="py-20 bg-white border-t border-gray-200 relative">
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/2340000000000"
+        href="https://wa.me/+2349038910873"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-5 right-5 bg-green-600 hover:bg-green-700 text-white p-4 rounded-full shadow-md z-50"
@@ -72,7 +72,7 @@ export default function Contact() {
                 </li>
                 <li>
                   <strong>Phone:</strong>{' '}
-                  <span className="text-gray-800">+234 000 000 0000</span>
+                  <span className="text-gray-800">+234 903 891 0873</span>
                 </li>
                 <li>
                   <strong>Location:</strong>{' '}
